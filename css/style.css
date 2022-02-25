@@ -1,0 +1,117 @@
+body{
+    background-color: rgba(3, 220, 228, 0.712);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgba(3, 165, 170, 0.712);
+    color: #FFF;
+    padding: 16px;
+    margin-bottom: 30px;
+}
+.penampung{
+    background-color: #FFF;
+    border: 4px solid rgba(3, 165, 170, 0.712);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 900px;
+    padding-left: 30px;
+}
+
+.penampung input{
+    width: 850px;
+    height: 40px;
+    padding-left: 20px;
+    margin: 10px 0 ;
+    border-radius: 7px;
+}
+
+.penampung ::-webkit-input-placeholder, 
+.penampung input[type=text], 
+.penampung input[type=number]{
+    font-size: 20px;
+}
+
+.penampung input[type=submit]{
+    background-color: rgba(3, 220, 228, 0.712);
+    color: #FFF;
+    font-size: 20px;
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+.penampung input[type=submit]:hover{
+    background-color: rgba(0, 108, 112, 0.712);
+}
+
+.book-item{
+    width: 85%;
+    display: grid;
+}
+
+.edit-button {
+    background-image: url('../aset/check-outline.svg') ;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    border: none;
+    float: right;
+}
+
+.tombolSelesai {
+    background-image: url('../aset/check-outline.svg') ;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+    float: right;
+}
+
+.tombolSelesai:hover{
+    background: url('../aset/check-solid.svg');
+    background-size: contain;
+}
+.tombolEdit{
+    background: url('../aset/pencil-svgrepo-com.svg');
+    width: 40px;
+    height: 40px;
+    margin-left: 16px;
+    cursor: pointer;
+    border: none;
+    float: right;
+}
+.tombolSampah{
+    background: url('../aset/trash-outline.svg');
+    width: 40px;
+    height: 40px;
+    margin-left: 16px;
+    cursor: pointer;
+    border: none;
+    float: right;
+}
+
+.tombolSampah:hover {
+    background: url('../aset/trash-fill.svg');
+}
+
+.tombolUndo{
+    background: url('../aset/undo-ouline.svg');
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+    float: right;
+}
+
+.tombolUndo:hover {
+    background: url('../aset/undo-ouline\ copy.svg');
+    background-size: contain;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catatan Rak Buku</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <center>
+        <header>
+            <h1>
+                Catatan Rak Buku
+            </h1>
+        </header>
+    </center>
+
+    <div class="selubung">
+        <div class="penampung">
+            <center>
+                <h2 class="">Tambahkan Buku</h2>
+                <form class="form" action="#" id="form">
+                    <div class="">
+                        <input type="text" name="judul" id="judul" placeholder="Judul" required>
+                    </div>
+                    <div class="">
+                        <input type="text" name="penulis" id="penulis" placeholder="Penulis" required>
+                    </div>
+                    <div class="">
+                        <input type="number" name="tahun" id="tahun" placeholder="Tahun Terbit" maxlength="4" required>
+                    </div>
+                    <input type="submit" value="Submit" name="Submit" class="btnSubmit">
+                </form>
+            </center>
+        </div>
+
+        <div class="penampung">
+            <h2 class="">Belum Selesai</h2>
+            <div class="book-item" id="daftarBuku">
+
+            </div>
+        </div>
+
+        <div class="penampung">
+            <h2 class="">Sudah Selesai</h2>
+            <div class="book-item" id="bukuSelesai">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="js/fungsiPenyimpanan.js" type="text/javascript"></script>
+    <script src="js/fungsiTampilan.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+
+</html>
